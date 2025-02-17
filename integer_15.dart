@@ -7,7 +7,8 @@ void main() {
   var birlik = uchxona % 100 % 10; //birlarni aniqlash
   var onlik = uchxona ~/ 10 % 10; //o'nlarni aniqlash
 
-  int yangiSon = onlik * 10 + yuzlar * 10 + birlik;
+  int yangiSon = onlik * 100 + yuzlar * 10 + birlik;
+
 
   print('$uchxona sonining yangi ko\'rinishi: $yangiSon');
 }
